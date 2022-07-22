@@ -6,16 +6,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
   transform: scale(1, 0.9 );
-}
-
-.gradient-card {
-  background: #f12711;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right,  #f12711, #f5af19,);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
