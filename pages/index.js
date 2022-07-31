@@ -3,8 +3,18 @@ import Education from "../component/Education";
 import Experience from "../component/Experience";
 import Contact from "../component/Contact";
 import Project from "../component/Project";
+import kursor from "kursor";
+import "kursor/dist/kursor.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const kursorx = new kursor({
+      type: 5,
+      color: "#476582",
+    });
+  }, []);
+
   return (
     <>
       <div className="px-5 md:px-20 lg:px-52 xl:px-64">
